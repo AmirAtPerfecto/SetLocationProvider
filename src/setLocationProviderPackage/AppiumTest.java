@@ -38,7 +38,7 @@ public class AppiumTest {
         capabilities.setCapability("password", "myPassword");
 
         //TODO: Change your device ID
-        capabilities.setCapability("deviceName", "12345");
+        capabilities.setCapability("deviceName", "12345"); 
 
         // Use the automationName capability to define the required framework - Appium (this is the default) or PerfectoMobile.
         capabilities.setCapability("automationName", "Appium");
